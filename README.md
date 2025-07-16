@@ -32,27 +32,24 @@ A fun, interactive Pictionary game built with Next.js, TypeScript, React, and Ta
 ### Installation
 
 1. **Clone or download the project**
-   \`\`\`bash
-   # If using git
-   git clone <repository-url>
-   cd pictionary-game
-   
-   # Or extract the zip file and navigate to the folder
-   \`\`\`
+   ```bash
+   git clone https://github.com/bingolead-stack/pictionary-game-20250716-pa
+   cd pictionary-game-20250716-pa
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    
@@ -60,10 +57,10 @@ A fun, interactive Pictionary game built with Next.js, TypeScript, React, and Ta
 
 ### Building for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 📖 How to Play
 
@@ -104,7 +101,7 @@ npm start
 - **Lucide React** - Beautiful icons
 
 ### Project Structure
-\`\`\`
+```
 pictionary-game/
 ├── app/
 │   ├── page.tsx          # Main game component
@@ -115,7 +112,7 @@ pictionary-game/
 ├── lib/
 │   └── utils.ts         # Utility functions
 └── README.md
-\`\`\`
+```
 
 ### Key Components
 - **Game State Management**: React hooks for managing game flow
@@ -132,18 +129,19 @@ This project doesn't require any environment variables or external APIs. Everyth
 
 ### Adding More Words
 Edit the `WORDS` array in `app/page.tsx`:
-\`\`\`typescript
+```typescript
 const WORDS = [
   'cat', 'dog', 'house', // ... add your words here
 ]
-\`\`\`
+```
 
 ### Changing Colors
 Modify the `COLORS` array in `app/page.tsx`:
-\`\`\`typescript
-const COLORS = ['#000000', '#FF0000', // ... add hex colors
+```typescript
+const COLORS = [
+   '#000000', '#FF0000', // ... add hex colors
 ]
-\`\`\`
+```
 
 ### Adjusting Game Settings
 - **Timer Duration**: Change the initial `timeLeft` value
