@@ -2,17 +2,17 @@
 
 A fun, interactive Pictionary game built with Next.js, TypeScript, React, and Tailwind CSS. Players take turns drawing words while others try to guess what they're drawing!
 
-## Features
+## 🎨 Features
 
-- 🎨 **Interactive Drawing Canvas** - Draw with different colors and brush sizes
-- ⏱️ **Timer System** - 60-second rounds to keep the game exciting
-- 👥 **Multi-Player Support** - Up to multiple players can participate
-- 🏆 **Scoring System** - Points awarded for correct guesses and successful drawings
-- 🎯 **Word Bank** - 40+ pre-loaded words to draw
-- 📱 **Responsive Design** - Works on desktop and mobile devices
-- 🎮 **Real-time Gameplay** - Instant feedback and game state updates
+- **Interactive Drawing Canvas** - Draw with different colors and brush sizes
+- **Timer System** - 60-second rounds to keep the game exciting
+- **Multi-Player Support** - Up to multiple players can participate
+- **Scoring System** - Points awarded for correct guesses and successful drawings
+- **Word Bank** - 40+ pre-loaded words to draw
+- **Responsive Design** - Works on desktop and mobile devices
+- **Real-time Gameplay** - Instant feedback and game state updates
 
-## Game Rules
+## 🎮 Game Rules
 
 1. **Drawing Phase**: One player draws a randomly selected word
 2. **Guessing Phase**: Other players try to guess the word
@@ -22,7 +22,7 @@ A fun, interactive Pictionary game built with Next.js, TypeScript, React, and Ta
 4. **Rounds**: Players take turns being the drawer
 5. **Time Limit**: Each round lasts 60 seconds
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -55,6 +55,7 @@ A fun, interactive Pictionary game built with Next.js, TypeScript, React, and Ta
    \`\`\`
 
 4. **Open your browser**
+   
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Building for Production
@@ -64,7 +65,7 @@ npm run build
 npm start
 \`\`\`
 
-## How to Play
+## 📖 How to Play
 
 1. **Start the Game**: Click "Start Round" to begin
 2. **Drawing**: 
@@ -79,7 +80,7 @@ npm start
 4. **Scoring**: Points are automatically awarded for correct guesses
 5. **Next Round**: Click "Next Round" to continue with the next player
 
-## Game Controls
+## 🎯 Game Controls
 
 ### Drawing Tools
 - **Color Palette**: 8 different colors to choose from
@@ -92,7 +93,7 @@ npm start
 - **Guess History**: Real-time display of all guesses
 - **Round Counter**: Track game progress
 
-## Technical Details
+## 🛠️ Technical Details
 
 ### Built With
 - **Next.js 14** - React framework with App Router
@@ -123,14 +124,14 @@ pictionary-game/
 - **Player Management**: State management for multiple players
 - **Guess Validation**: Real-time guess checking and scoring
 
-## Environment Variables
+## 🔧 Environment Variables
 
 This project doesn't require any environment variables or external APIs. Everything runs locally in the browser.
 
-## Customization
+## ⚙️ Customization
 
 ### Adding More Words
-Edit the \`WORDS\` array in \`app/page.tsx\`:
+Edit the `WORDS` array in `app/page.tsx`:
 \`\`\`typescript
 const WORDS = [
   'cat', 'dog', 'house', // ... add your words here
@@ -138,25 +139,25 @@ const WORDS = [
 \`\`\`
 
 ### Changing Colors
-Modify the \`COLORS\` array in \`app/page.tsx\`:
+Modify the `COLORS` array in `app/page.tsx`:
 \`\`\`typescript
 const COLORS = ['#000000', '#FF0000', // ... add hex colors
 ]
 \`\`\`
 
 ### Adjusting Game Settings
-- **Timer Duration**: Change the initial \`timeLeft\` value
-- **Scoring**: Modify point values in the \`submitGuess\` function
+- **Timer Duration**: Change the initial `timeLeft` value
+- **Scoring**: Modify point values in the `submitGuess` function
 - **Canvas Size**: Adjust width/height in the canvas element
 
-## Troubleshooting
+## 🐛 Troubleshooting
 
 ### Common Issues
 
 1. **Canvas not drawing**: Make sure you're clicking and dragging on the canvas area
 2. **Timer not working**: Check that JavaScript is enabled in your browser
 3. **Styles not loading**: Ensure Tailwind CSS is properly installed
-4. **Build errors**: Run \`npm install\` to ensure all dependencies are installed
+4. **Build errors**: Run `npm install` to ensure all dependencies are installed
 
 ### Browser Compatibility
 - Chrome 80+
@@ -164,7 +165,7 @@ const COLORS = ['#000000', '#FF0000', // ... add hex colors
 - Safari 13+
 - Edge 80+
 
-## Future Enhancements
+## 🚧 Future Enhancements
 
 Potential features that could be added:
 - Real-time multiplayer with WebSockets
@@ -175,7 +176,7 @@ Potential features that could be added:
 - Sound effects and animations
 - Tournament mode with brackets
 
-## Contributing
+## 🤝 Contributing
 
 This is a demo project, but feel free to fork and enhance it! Some areas for improvement:
 - Better mobile responsiveness
@@ -184,11 +185,11 @@ This is a demo project, but feel free to fork and enhance it! Some areas for imp
 - Save/load drawings
 - Custom game rooms
 
-## License
+## 📄 License
 
 This project is open source and available under the MIT License.
 
-## Support
+## 💬 Support
 
 If you encounter any issues:
 1. Check the troubleshooting section above
@@ -196,9 +197,10 @@ If you encounter any issues:
 3. Try clearing your browser cache
 4. Check the browser console for error messages
 
-Enjoy playing Pictionary! 🎨🎮
-\`\`\`
+---
 
-## Development Time
+**Enjoy playing Pictionary!** 🎨🎮
+
+## ⏱️ Development Time
 
 This project was completed in approximately 45 minutes, focusing on core gameplay mechanics and a polished user interface.
